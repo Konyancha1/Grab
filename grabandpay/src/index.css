@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size:67.6%;
+}
+body{
+  font-size: 1.6rem;
+  background-color: white;
+}
+.logo{
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  left: 38vw;
+}
+.searchBar{
+  border-radius: 10px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  position: absolute;
+  border: none;
+  font-size: 2.3vh;
+  width: 30vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 6.3vh;
+  color: black;
+  background-color: rgb(241, 239, 239);
+  top: 24vh;
+  left: 35vw;
+}
+.searchIcon{
+  position: absolute;
+  top: 26.2vh;
+  left: 36vw;
+  z-index: 99;
+  cursor: pointer;
+  border: none;
+}
+.supermarketLogo{
+  width: 12vw;
+  cursor: pointer;
+}
+.supermarketName{
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 1.4vw;
+  position: relative;
+  top: 3.5vw;
+  left: 1vw;
+  cursor: pointer;
+}
+.supermarketName:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+}
+.supermarketName:hover{
+  padding-right: 25px;
+}
+.supermarketName:hover:after{
+  opacity: 1;
+  right: 0;
+}
+.supermarkets{
+  display: flex;
+  border: none;
+  background-color: white;
+}
+.accessLogo{
+  position: absolute;
+  width: 30vw;
+  left: 34vw;
+  top: 10vw;
+}
+.add{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  left: 41vw;
+  top: 28vw;
+  position: absolute;
+  cursor: pointer;
+}
+.screenshot{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  left: 50vw;
+  top: 20vw;
+  position: absolute;
+  cursor: pointer;
+}
