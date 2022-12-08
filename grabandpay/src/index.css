@@ -94,7 +94,53 @@ body{
   position: absolute;
   cursor: pointer;
 }
-.screenshot{
+.app-logo{
+  position: absolute;
+  left: 42vw;
+  top: 3vh;
+  width: 14vw;
+}
+.shopping-card{
+  display: flex;
+  position: absolute;
+  gap: 9rem;
+  top: 10vw;
+  left: 35vw;
+  font-family: 'Quicksand';
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.item-delete{
+  position: relative;
+  top: 1.15rem;
+  cursor: pointer;
+  color: #E93B3B;
+}
+.title-1{
+  position: absolute;
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  left: 35vw;
+  top: 7.6vw;
+  text-decoration: underline;
+}
+.title-2{
+  position: absolute;
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  left: 47vw;
+  top: 7.6vw;
+  text-decoration: underline;
+}
+.title-3{
+  position: absolute;
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  left: 58vw;
+  top: 7.6vw;
+  text-decoration: underline;
+}
+.checkout{
   border-radius: 6px;
   background-color: #E93B3B;
   font-family: 'Quicksand';
@@ -103,9 +149,46 @@ body{
   color: white;
   border: none;
   padding: 1rem;
-  width: 20rem;
-  left: 50vw;
-  top: 20vw;
+  width: 30rem;
+  left: 38vw;
+  top: 40vw;
+  position: relative;
+  cursor: pointer;
+}
+.phone{
+  position: absolute;
+  font-family: 'Quicksand';
+  font-size: 1.5rem;
+  font-weight: 500;
+  left: 37vw;
+  top: 16vw;
+}
+.phone-input{
+  border-radius: 6px;
+  background-color: whitesmoke;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: black;
+  border: none;
+  padding: 1.3rem;
+  width: 30rem;
+  left: 37vw;
+  top: 18vw;
+  position: absolute
+}
+.pay{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 10rem;
+  left: 46vw;
+  top: 25vw;
   position: absolute;
   cursor: pointer;
 }
