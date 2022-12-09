@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 export default function ShopAccess(){
     const navigate = useNavigate();
     const navigateToCam = () => {
-        navigate('/webcam');
+        navigate('/scan');
     };
     return(
         <div>
