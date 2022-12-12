@@ -155,6 +155,22 @@ body{
   position: relative;
   cursor: pointer;
 }
+.check{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 35rem;
+  left: 42.2vw;
+  top: 20vw;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
 .phone{
   position: absolute;
   font-family: 'Quicksand';
