@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function filterResults(results) {
     let filteredResults = [];
@@ -46,12 +47,15 @@ class ResultContainerTable extends React.Component {
 class ResultContainerPlugin extends React.Component {
     render() { 
         let results = filterResults(this.props.results);
-        return (<div className='Result-container'>
+        return (
+            <div className='Result-container'>
                 <div className='Result-header'>Scanned results ({results.length})</div>
                 <div className='Result-section'>
                     <ResultContainerTable data={this.props.results} />
                 </div>
-            </div>);
+                <Link to='/checkout' className="check">PROCEED TO CHECKOUT</Link>
+            </div>
+            );
     }
 }
 
