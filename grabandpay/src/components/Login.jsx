@@ -3,28 +3,39 @@ import logo from "../images/App logo.png";
 import icon from '../images/shopping cart (2).png';
 import { Link } from 'react-router-dom';
 import "../index.css";
+import axios from 'axios';
 
 class Login extends Component {
-  handleSubmit = e => {
+  handleSubmit =async (e) => { 
     e.preventDefault();
     console.log(e.target.email.value);
 
-    if (!e.target.email.value) {
-      alert("Email is required");
-    } else if (!e.target.email.value) {
-      alert("Valid email is required");
-    } else if (!e.target.password.value) {
-      alert("Password is required");
-    } else if (
-      e.target.email.value === "me@example.com" &&
-      e.target.password.value === "123456"
-    ) {
-      alert("Successfully logged in");
-      e.target.email.value = "";
-      e.target.password.value = "";
-    } else {
-      alert("Wrong email or password combination");
-    }
+    var { email, password } = document.forms[0];
+        const data = {email : email.value, password : password.value}
+        try{
+          const response = await axios.post("http://localhost:5000/api/login", data);
+          alert(response);
+        }
+        catch(err){
+          console.log(err);
+        }
+
+    // if (!e.target.email.value) {
+    //   alert("Email is required");
+    // } else if (!e.target.email.value) {
+    //   alert("Valid email is required");
+    // } else if (!e.target.password.value) {
+    //   alert("Password is required");
+    // } else if (
+    //   e.target.email.value === "me@example.com" &&
+    //   e.target.password.value === "123456"
+    // ) {
+    //   alert("Successfully logged in");
+    //   e.target.email.value = "";
+    //   e.target.password.value = "";
+    // } else {
+    //   alert("Wrong email or password combination");
+    // }
   };
 
   render() {
