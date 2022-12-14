@@ -100,6 +100,7 @@ body{
   top: 3vh;
   width: 14vw;
 }
+.app
 .shopping-card{
   display: flex;
   position: absolute;
@@ -207,4 +208,97 @@ body{
   top: 25vw;
   position: absolute;
   cursor: pointer;
+}
+.admin-page{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  padding-left: 3rem;
+  width: 13rem;
+  left: 82vw;
+  top: 3.7vw;
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Quicksand';
+}
+.login-logo{
+  position: relative;
+  top: 10vw;
+}
+.login-icon{
+  position: absolute;
+  left: 70vw;
+  top: 20vh;
+  width: 7vw;
+}
+.input-group label{
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  font-weight: 400;
+  position: fixed;
+  left: 53vw;
+  top: 20.5vw;
+}
+.input-group input{
+  border-radius: 10px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  position: absolute;
+  border: none;
+  font-size: 2.3vh;
+  width: 27vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 6.3vh;
+  color: black;
+  background-color: rgb(241, 239, 239);
+  top: 39vh;
+  left: 60vw;
+}
+.input-group-1 label{
+  font-family: 'Quicksand';
+  font-size: 2rem;
+  font-weight: 400;
+  position: fixed;
+  left: 52vw;
+  top: 26vw;
+}
+.input-group-1 input{
+  border-radius: 10px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  position: absolute;
+  border: none;
+  font-size: 2.3vh;
+  width: 27vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 6.3vh;
+  color: black;
+  background-color: rgb(241, 239, 239);
+  top: 49.7vh;
+  left: 60vw;
+}
+.primary{
+  border-radius: 6px;
+  background-color: #E93B3B;
+  font-family: 'Quicksand';
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 1rem;
+  padding-left: 5rem;
+  width: 10rem;
+  left: 69vw;
+  top: 32vw;
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
 }
